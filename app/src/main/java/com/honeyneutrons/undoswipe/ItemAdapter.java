@@ -72,8 +72,8 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemViewHolder
 
         View snackBarView = snackbar.getView();
         snackBarView.setBackgroundColor(ContextCompat.getColor(context, R.color.colorAccent));
-        TextView tvSnack = (TextView) snackBarView.findViewById(android.support.design.R.id.snackbar_text);
-        TextView tvSnackAction = (TextView) snackbar.getView().findViewById( android.support.design.R.id.snackbar_action );
+        TextView tvSnack = (TextView) snackBarView.findViewById(R.id.snackbar_text);
+        TextView tvSnackAction = (TextView) snackbar.getView().findViewById(R.id.snackbar_action );
         tvSnack.setTextColor(Color.WHITE);
         tvSnack.setTypeface(Typefaces.getRobotoMedium(context));
         tvSnackAction.setTypeface(Typefaces.getRobotoMedium(context));
